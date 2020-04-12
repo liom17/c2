@@ -3,14 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StudentList } from './student-list.component';
-import { Student } from './student.component';
+import { ProductListComponent } from './products-list.component';
+import { ProductDepartmentComponent } from './products-department.component';
+import { ProductImageComponent } from './products-image.component';
+import { ProductPriceComponent } from './products-price.component';
+import { ProductRowComponent } from './products-row.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    StudentList,
-    Student
+    ProductListComponent,
+    ProductDepartmentComponent,
+    ProductImageComponent,
+    ProductPriceComponent,
+    ProductRowComponent
   ],
   imports: [
     BrowserModule,
